@@ -20,11 +20,14 @@
                     collectable.body.height = 44;
                     break;
                     
-                case 'grace':
-                case 'kennedi':
-                    collectable.scale.x = collectable.scale.y = 0.9;
+                case 'ammo':
+                    collectable.scale.x = collectable.scale.y = 0.2;
                     break;
-                
+                case 'ar':
+                    collectable.scale.x = collectable.scale.y = 0.1;
+                    break;
+                case 'ammo': 
+                collectable.scale.x = collectable.scale.y = 0.2;
                 default:
                     // code
             }
